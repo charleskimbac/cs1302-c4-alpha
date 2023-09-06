@@ -89,6 +89,7 @@ public class ConnectFourCLI {
      * prints the 'Connect Four' header from the 'resources/connectfour.txt' file.
      */
     public static void printHeader() {
+        System.out.println();
         printFileLines("resources/connectfour.txt");
     } // printHeader
 
@@ -105,6 +106,7 @@ public class ConnectFourCLI {
      * prints the 'Game Over' banner from the 'resources/gameover.txt' file.
      */
     public static void printGameOver() {
+        System.out.println();
         printFileLines("resources/gameover.txt");
     } // printGameOver
 
